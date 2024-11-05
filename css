@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.conteudo {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  gap: 20px;
+}
+
+.quadrante-esquerdo {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.video-capa {
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 20px;
+}
+
+.video-capa video {
+  width: 100%;
+  height: auto;
+}
+
+.produtos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.quadrante-direito {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.carrinho, .promocoes {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.produto {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+}
+
+.produto img {
+  width: 100%;
+  height: auto;
+}
+
+button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+.finalizar-compra {
+  background-color: yellow;
+  color: black;
+  font-weight: bold;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
